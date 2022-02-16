@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  
+  
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(223, 223, 223);
+}
+.late-fee-container {
+  
+  padding: 30px;
+  /* width: 50%;
+  height: 40%; */
+  background-color: rgb(233, 233, 233);
+  border: 1px solid #bec2c6;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+.input-info {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.column {
+  flex: 1;
+}
+.input-info-row {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  display: block;
+  margin: 0;
+}
+select,
+input {
+  width: 100%;
+  display: block;
+  padding: 9px 5px;
+  margin-top: 5px;
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid rgb(212, 212, 212);
+ 
+}
+a {
+  text-decoration: none;
+}
+.input-position {
+  position: relative;
+}
+.position {
+  position: absolute;
+  bottom: 9px;
+  right: 4px;
+  color: rgb(100, 99, 99);
+}
+.position-2 {
+  position: absolute;
+  bottom: 9px;
+  right: 4px;
+  color: rgb(100, 99, 99);
+}
+
+.inside-row-info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.inside-row-info > input {
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}.inside-row{
+    display: flex;
+    gap: 8px;
+}
+.inside-row-text{
+    padding-top: 0px;
+}
+.inside-row > input{
+    width: 20px;
+    margin: 0;
+}
+.text {
+  margin-top: 3px;
+  margin-bottom: 0;
+  color: rgb(100, 99, 99);
+}
+.row-info-1 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.flex {
+  display: flex;
+  gap: 20px;
+}
+.row{
+    margin-top: 20px;
+}
+::placeholder, select{
+    font-size: 16px;
+}
